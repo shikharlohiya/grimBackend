@@ -1,0 +1,20 @@
+
+**** Log file opened at 2024-01-11 22:04:52.677284 UTC+05:30 (India Standard Time), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12
+Compilation date          : Jul  7 2023 22:54:54
+CPIC library              : 753.2023.07.06 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1216
+Current working directory : D:\GRIM Shikhar\Backend\home\grimdev\nexivo\grim\API_grim
+Program                   : node
+Process ID                : 13700
+User                      : shikhar.lohiya
+Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 140 Step 1)
+Operating_system          : Windows NT 10.0
+Hostname                  : SHIBU-LAP
+IP address                : 172.20.10.2
+IPv6 address              : fe80::9c9e:e10c:c882:2312
+Global trace level        : 0
+
+2024-01-11 22:04:52.675710 [08640] >> Info entry
+	Did not find config file D:\GRIM Shikhar\Backend\home\grimdev\nexivo\grim\API_grim\sapnwrfc.ini.

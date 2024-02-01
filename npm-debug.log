@@ -1,0 +1,1245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json skeleton@1.0.0 No description
+6 warn package.json skeleton@1.0.0 No repository field.
+7 warn package.json skeleton@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'D:\\API_grim',
+9 verbose install   [ '@sendgrid/mail',
+9 verbose install     'aws-sdk',
+9 verbose install     'axios',
+9 verbose install     'body-parser',
+9 verbose install     'cloudinary',
+9 verbose install     'connect-multiparty',
+9 verbose install     'connect-timeout',
+9 verbose install     'cors',
+9 verbose install     'crypto-js',
+9 verbose install     'dotenv',
+9 verbose install     'express',
+9 verbose install     'express-session',
+9 verbose install     'fcm-node',
+9 verbose install     'gulp',
+9 verbose install     'gulp-nodemon',
+9 verbose install     'jsonwebtoken',
+9 verbose install     'morgan',
+9 verbose install     'msg91-sms',
+9 verbose install     'multer',
+9 verbose install     'mustache',
+9 verbose install     'mysql',
+9 verbose install     'node-cron',
+9 verbose install     'nodemailer',
+9 verbose install     's3',
+9 verbose install     'sendgrid',
+9 verbose install     'sendgrid-mailer',
+9 verbose install     'serve-index',
+9 verbose install     'underscore',
+9 verbose install     'express-debug' ] ]
+10 info preinstall skeleton@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ '@sendgrid/mail@6.2.1', null ]
+13 verbose cache add name=undefined spec="@sendgrid/mail@6.2.1" args=["@sendgrid/mail@6.2.1",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '@sendgrid/mail@6.2.1',
+14 verbose parsed url   path: '@sendgrid/mail@6.2.1',
+14 verbose parsed url   href: '@sendgrid/mail@6.2.1' }
+15 verbose cache add name="" spec="sendgrid/mail@6.2.1" args=["","sendgrid/mail@6.2.1"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'sendgrid/mail@6.2.1',
+16 verbose parsed url   path: 'sendgrid/mail@6.2.1',
+16 verbose parsed url   href: 'sendgrid/mail@6.2.1' }
+17 verbose cache add name="sendgrid/mail" spec="6.2.1" args=["sendgrid/mail","6.2.1"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '6.2.1',
+18 verbose parsed url   path: '6.2.1',
+18 verbose parsed url   href: '6.2.1' }
+19 verbose addNamed [ 'sendgrid/mail', '6.2.1' ]
+20 verbose addNamed [ '6.2.1', '6.2.1' ]
+21 verbose cache add [ 'aws-sdk@^2.435.0', null ]
+22 verbose cache add name=undefined spec="aws-sdk@^2.435.0" args=["aws-sdk@^2.435.0",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'aws-sdk@^2.435.0',
+23 verbose parsed url   path: 'aws-sdk@^2.435.0',
+23 verbose parsed url   href: 'aws-sdk@^2.435.0' }
+24 verbose cache add name="aws-sdk" spec="^2.435.0" args=["aws-sdk","^2.435.0"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '^2.435.0',
+25 verbose parsed url   path: '^2.435.0',
+25 verbose parsed url   href: '^2.435.0' }
+26 verbose addNamed [ 'aws-sdk', '^2.435.0' ]
+27 verbose addNamed [ null, '>=2.435.0-0 <3.0.0-0' ]
+28 verbose cache add [ 'axios@^0.19.0', null ]
+29 verbose cache add name=undefined spec="axios@^0.19.0" args=["axios@^0.19.0",null]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'axios@^0.19.0',
+30 verbose parsed url   path: 'axios@^0.19.0',
+30 verbose parsed url   href: 'axios@^0.19.0' }
+31 verbose cache add name="axios" spec="^0.19.0" args=["axios","^0.19.0"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '^0.19.0',
+32 verbose parsed url   path: '^0.19.0',
+32 verbose parsed url   href: '^0.19.0' }
+33 verbose addNamed [ 'axios', '^0.19.0' ]
+34 verbose addNamed [ null, '>=0.19.0-0 <0.20.0-0' ]
+35 verbose cache add [ 'body-parser@1.18.3', null ]
+36 verbose cache add name=undefined spec="body-parser@1.18.3" args=["body-parser@1.18.3",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'body-parser@1.18.3',
+37 verbose parsed url   path: 'body-parser@1.18.3',
+37 verbose parsed url   href: 'body-parser@1.18.3' }
+38 verbose cache add name="body-parser" spec="1.18.3" args=["body-parser","1.18.3"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '1.18.3',
+39 verbose parsed url   path: '1.18.3',
+39 verbose parsed url   href: '1.18.3' }
+40 verbose addNamed [ 'body-parser', '1.18.3' ]
+41 verbose addNamed [ '1.18.3', '1.18.3' ]
+42 verbose cache add [ 'cloudinary@1.11.0', null ]
+43 verbose cache add name=undefined spec="cloudinary@1.11.0" args=["cloudinary@1.11.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'cloudinary@1.11.0',
+44 verbose parsed url   path: 'cloudinary@1.11.0',
+44 verbose parsed url   href: 'cloudinary@1.11.0' }
+45 verbose cache add name="cloudinary" spec="1.11.0" args=["cloudinary","1.11.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '1.11.0',
+46 verbose parsed url   path: '1.11.0',
+46 verbose parsed url   href: '1.11.0' }
+47 verbose addNamed [ 'cloudinary', '1.11.0' ]
+48 verbose addNamed [ '1.11.0', '1.11.0' ]
+49 verbose cache add [ 'connect-multiparty@^2.2.0', null ]
+50 verbose cache add name=undefined spec="connect-multiparty@^2.2.0" args=["connect-multiparty@^2.2.0",null]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: 'connect-multiparty@^2.2.0',
+51 verbose parsed url   path: 'connect-multiparty@^2.2.0',
+51 verbose parsed url   href: 'connect-multiparty@^2.2.0' }
+52 verbose cache add name="connect-multiparty" spec="^2.2.0" args=["connect-multiparty","^2.2.0"]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: '^2.2.0',
+53 verbose parsed url   path: '^2.2.0',
+53 verbose parsed url   href: '^2.2.0' }
+54 verbose addNamed [ 'connect-multiparty', '^2.2.0' ]
+55 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+56 verbose cache add [ 'connect-timeout@1.9.0', null ]
+57 verbose cache add name=undefined spec="connect-timeout@1.9.0" args=["connect-timeout@1.9.0",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'connect-timeout@1.9.0',
+58 verbose parsed url   path: 'connect-timeout@1.9.0',
+58 verbose parsed url   href: 'connect-timeout@1.9.0' }
+59 verbose cache add name="connect-timeout" spec="1.9.0" args=["connect-timeout","1.9.0"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: '1.9.0',
+60 verbose parsed url   path: '1.9.0',
+60 verbose parsed url   href: '1.9.0' }
+61 verbose addNamed [ 'connect-timeout', '1.9.0' ]
+62 verbose addNamed [ '1.9.0', '1.9.0' ]
+63 verbose cache add [ 'cors@^2.8.5', null ]
+64 verbose cache add name=undefined spec="cors@^2.8.5" args=["cors@^2.8.5",null]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: 'cors@^2.8.5',
+65 verbose parsed url   path: 'cors@^2.8.5',
+65 verbose parsed url   href: 'cors@^2.8.5' }
+66 verbose cache add name="cors" spec="^2.8.5" args=["cors","^2.8.5"]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '^2.8.5',
+67 verbose parsed url   path: '^2.8.5',
+67 verbose parsed url   href: '^2.8.5' }
+68 verbose addNamed [ 'cors', '^2.8.5' ]
+69 verbose addNamed [ null, '>=2.8.5-0 <3.0.0-0' ]
+70 verbose cache add [ 'crypto-js@^3.1.9-1', null ]
+71 verbose cache add name=undefined spec="crypto-js@^3.1.9-1" args=["crypto-js@^3.1.9-1",null]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: 'crypto-js@^3.1.9-1',
+72 verbose parsed url   path: 'crypto-js@^3.1.9-1',
+72 verbose parsed url   href: 'crypto-js@^3.1.9-1' }
+73 verbose cache add name="crypto-js" spec="^3.1.9-1" args=["crypto-js","^3.1.9-1"]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '^3.1.9-1',
+74 verbose parsed url   path: '^3.1.9-1',
+74 verbose parsed url   href: '^3.1.9-1' }
+75 verbose addNamed [ 'crypto-js', '^3.1.9-1' ]
+76 verbose addNamed [ null, '>=3.1.9-1 <4.0.0-0' ]
+77 verbose cache add [ 'dotenv@6.0.0', null ]
+78 verbose cache add name=undefined spec="dotenv@6.0.0" args=["dotenv@6.0.0",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'dotenv@6.0.0',
+79 verbose parsed url   path: 'dotenv@6.0.0',
+79 verbose parsed url   href: 'dotenv@6.0.0' }
+80 verbose cache add name="dotenv" spec="6.0.0" args=["dotenv","6.0.0"]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: '6.0.0',
+81 verbose parsed url   path: '6.0.0',
+81 verbose parsed url   href: '6.0.0' }
+82 verbose addNamed [ 'dotenv', '6.0.0' ]
+83 verbose addNamed [ '6.0.0', '6.0.0' ]
+84 verbose cache add [ 'express@^4.16.4', null ]
+85 verbose cache add name=undefined spec="express@^4.16.4" args=["express@^4.16.4",null]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'express@^4.16.4',
+86 verbose parsed url   path: 'express@^4.16.4',
+86 verbose parsed url   href: 'express@^4.16.4' }
+87 verbose cache add name="express" spec="^4.16.4" args=["express","^4.16.4"]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: '^4.16.4',
+88 verbose parsed url   path: '^4.16.4',
+88 verbose parsed url   href: '^4.16.4' }
+89 verbose addNamed [ 'express', '^4.16.4' ]
+90 verbose addNamed [ null, '>=4.16.4-0 <5.0.0-0' ]
+91 verbose cache add [ 'express-session@1.15.6', null ]
+92 verbose cache add name=undefined spec="express-session@1.15.6" args=["express-session@1.15.6",null]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'express-session@1.15.6',
+93 verbose parsed url   path: 'express-session@1.15.6',
+93 verbose parsed url   href: 'express-session@1.15.6' }
+94 verbose cache add name="express-session" spec="1.15.6" args=["express-session","1.15.6"]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '1.15.6',
+95 verbose parsed url   path: '1.15.6',
+95 verbose parsed url   href: '1.15.6' }
+96 verbose addNamed [ 'express-session', '1.15.6' ]
+97 verbose addNamed [ '1.15.6', '1.15.6' ]
+98 verbose cache add [ 'fcm-node@1.2.1', null ]
+99 verbose cache add name=undefined spec="fcm-node@1.2.1" args=["fcm-node@1.2.1",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'fcm-node@1.2.1',
+100 verbose parsed url   path: 'fcm-node@1.2.1',
+100 verbose parsed url   href: 'fcm-node@1.2.1' }
+101 verbose cache add name="fcm-node" spec="1.2.1" args=["fcm-node","1.2.1"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '1.2.1',
+102 verbose parsed url   path: '1.2.1',
+102 verbose parsed url   href: '1.2.1' }
+103 verbose addNamed [ 'fcm-node', '1.2.1' ]
+104 verbose addNamed [ '1.2.1', '1.2.1' ]
+105 verbose cache add [ 'gulp@^4.0.0', null ]
+106 verbose cache add name=undefined spec="gulp@^4.0.0" args=["gulp@^4.0.0",null]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: 'gulp@^4.0.0',
+107 verbose parsed url   path: 'gulp@^4.0.0',
+107 verbose parsed url   href: 'gulp@^4.0.0' }
+108 verbose cache add name="gulp" spec="^4.0.0" args=["gulp","^4.0.0"]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '^4.0.0',
+109 verbose parsed url   path: '^4.0.0',
+109 verbose parsed url   href: '^4.0.0' }
+110 verbose addNamed [ 'gulp', '^4.0.0' ]
+111 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+112 verbose cache add [ 'gulp-nodemon@^2.4.2', null ]
+113 verbose cache add name=undefined spec="gulp-nodemon@^2.4.2" args=["gulp-nodemon@^2.4.2",null]
+114 verbose parsed url { protocol: null,
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: null,
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: null,
+114 verbose parsed url   hash: null,
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: 'gulp-nodemon@^2.4.2',
+114 verbose parsed url   path: 'gulp-nodemon@^2.4.2',
+114 verbose parsed url   href: 'gulp-nodemon@^2.4.2' }
+115 verbose cache add name="gulp-nodemon" spec="^2.4.2" args=["gulp-nodemon","^2.4.2"]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: '^2.4.2',
+116 verbose parsed url   path: '^2.4.2',
+116 verbose parsed url   href: '^2.4.2' }
+117 verbose addNamed [ 'gulp-nodemon', '^2.4.2' ]
+118 verbose addNamed [ null, '>=2.4.2-0 <3.0.0-0' ]
+119 verbose cache add [ 'jsonwebtoken@8.3.0', null ]
+120 verbose cache add name=undefined spec="jsonwebtoken@8.3.0" args=["jsonwebtoken@8.3.0",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'jsonwebtoken@8.3.0',
+121 verbose parsed url   path: 'jsonwebtoken@8.3.0',
+121 verbose parsed url   href: 'jsonwebtoken@8.3.0' }
+122 verbose cache add name="jsonwebtoken" spec="8.3.0" args=["jsonwebtoken","8.3.0"]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '8.3.0',
+123 verbose parsed url   path: '8.3.0',
+123 verbose parsed url   href: '8.3.0' }
+124 verbose addNamed [ 'jsonwebtoken', '8.3.0' ]
+125 verbose addNamed [ '8.3.0', '8.3.0' ]
+126 silly lockFile e2a63c16-sendgrid-mail-6-2-1 sendgrid/mail@6.2.1
+127 verbose lock sendgrid/mail@6.2.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\e2a63c16-sendgrid-mail-6-2-1.lock
+128 silly lockFile ef66ae55-aws-sdk-2-435-0 aws-sdk@^2.435.0
+129 verbose lock aws-sdk@^2.435.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\ef66ae55-aws-sdk-2-435-0.lock
+130 silly lockFile 27b84cc3-axios-0-19-0 axios@^0.19.0
+131 verbose lock axios@^0.19.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\27b84cc3-axios-0-19-0.lock
+132 silly lockFile f960a818-body-parser-1-18-3 body-parser@1.18.3
+133 verbose lock body-parser@1.18.3 C:\Users\vinod.climes\AppData\Roaming\npm-cache\f960a818-body-parser-1-18-3.lock
+134 silly lockFile 84ffacd0-cloudinary-1-11-0 cloudinary@1.11.0
+135 verbose lock cloudinary@1.11.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\84ffacd0-cloudinary-1-11-0.lock
+136 silly lockFile 92c08825-connect-multiparty-2-2-0 connect-multiparty@^2.2.0
+137 verbose lock connect-multiparty@^2.2.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\92c08825-connect-multiparty-2-2-0.lock
+138 silly lockFile 7539c33b-connect-timeout-1-9-0 connect-timeout@1.9.0
+139 verbose lock connect-timeout@1.9.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\7539c33b-connect-timeout-1-9-0.lock
+140 silly lockFile 244e9b86-cors-2-8-5 cors@^2.8.5
+141 verbose lock cors@^2.8.5 C:\Users\vinod.climes\AppData\Roaming\npm-cache\244e9b86-cors-2-8-5.lock
+142 silly lockFile 4daad32b-crypto-js-3-1-9-1 crypto-js@^3.1.9-1
+143 verbose lock crypto-js@^3.1.9-1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\4daad32b-crypto-js-3-1-9-1.lock
+144 silly lockFile d5912410-dotenv-6-0-0 dotenv@6.0.0
+145 verbose lock dotenv@6.0.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\d5912410-dotenv-6-0-0.lock
+146 silly lockFile 9255a95c-express-4-16-4 express@^4.16.4
+147 verbose lock express@^4.16.4 C:\Users\vinod.climes\AppData\Roaming\npm-cache\9255a95c-express-4-16-4.lock
+148 silly lockFile 31ef2227-express-session-1-15-6 express-session@1.15.6
+149 verbose lock express-session@1.15.6 C:\Users\vinod.climes\AppData\Roaming\npm-cache\31ef2227-express-session-1-15-6.lock
+150 silly lockFile 0c41e88d-fcm-node-1-2-1 fcm-node@1.2.1
+151 verbose lock fcm-node@1.2.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\0c41e88d-fcm-node-1-2-1.lock
+152 silly lockFile 4a5217b8-gulp-4-0-0 gulp@^4.0.0
+153 verbose lock gulp@^4.0.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\4a5217b8-gulp-4-0-0.lock
+154 silly lockFile 48631eb7-gulp-nodemon-2-4-2 gulp-nodemon@^2.4.2
+155 verbose lock gulp-nodemon@^2.4.2 C:\Users\vinod.climes\AppData\Roaming\npm-cache\48631eb7-gulp-nodemon-2-4-2.lock
+156 silly lockFile cdc1eb9f-jsonwebtoken-8-3-0 jsonwebtoken@8.3.0
+157 verbose lock jsonwebtoken@8.3.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\cdc1eb9f-jsonwebtoken-8-3-0.lock
+158 silly addNameRange { name: 'axios', range: '>=0.19.0-0 <0.20.0-0', hasData: false }
+159 silly addNameRange { name: 'aws-sdk',
+159 silly addNameRange   range: '>=2.435.0-0 <3.0.0-0',
+159 silly addNameRange   hasData: false }
+160 silly addNameRange { name: 'connect-multiparty',
+160 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+160 silly addNameRange   hasData: false }
+161 verbose url raw cloudinary/1.11.0
+162 verbose url resolving [ 'https://registry.npmjs.org/', './cloudinary/1.11.0' ]
+163 verbose url resolved https://registry.npmjs.org/cloudinary/1.11.0
+164 info trying registry request attempt 1 at 14:52:51
+165 http GET https://registry.npmjs.org/cloudinary/1.11.0
+166 verbose cache add [ 'msg91-sms@1.0.1', null ]
+167 verbose cache add name=undefined spec="msg91-sms@1.0.1" args=["msg91-sms@1.0.1",null]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: 'msg91-sms@1.0.1',
+168 verbose parsed url   path: 'msg91-sms@1.0.1',
+168 verbose parsed url   href: 'msg91-sms@1.0.1' }
+169 verbose cache add name="msg91-sms" spec="1.0.1" args=["msg91-sms","1.0.1"]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: '1.0.1',
+170 verbose parsed url   path: '1.0.1',
+170 verbose parsed url   href: '1.0.1' }
+171 verbose addNamed [ 'msg91-sms', '1.0.1' ]
+172 verbose addNamed [ '1.0.1', '1.0.1' ]
+173 silly lockFile 73998237-msg91-sms-1-0-1 msg91-sms@1.0.1
+174 verbose lock msg91-sms@1.0.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\73998237-msg91-sms-1-0-1.lock
+175 verbose cache add [ 'morgan@^1.10.0', null ]
+176 verbose cache add name=undefined spec="morgan@^1.10.0" args=["morgan@^1.10.0",null]
+177 verbose parsed url { protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: 'morgan@^1.10.0',
+177 verbose parsed url   path: 'morgan@^1.10.0',
+177 verbose parsed url   href: 'morgan@^1.10.0' }
+178 verbose cache add name="morgan" spec="^1.10.0" args=["morgan","^1.10.0"]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: '^1.10.0',
+179 verbose parsed url   path: '^1.10.0',
+179 verbose parsed url   href: '^1.10.0' }
+180 verbose addNamed [ 'morgan', '^1.10.0' ]
+181 verbose addNamed [ null, '>=1.10.0-0 <2.0.0-0' ]
+182 silly lockFile 9b85a19b-morgan-1-10-0 morgan@^1.10.0
+183 verbose lock morgan@^1.10.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\9b85a19b-morgan-1-10-0.lock
+184 verbose cache add [ 'multer@1.3.1', null ]
+185 verbose cache add name=undefined spec="multer@1.3.1" args=["multer@1.3.1",null]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: 'multer@1.3.1',
+186 verbose parsed url   path: 'multer@1.3.1',
+186 verbose parsed url   href: 'multer@1.3.1' }
+187 verbose cache add name="multer" spec="1.3.1" args=["multer","1.3.1"]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: '1.3.1',
+188 verbose parsed url   path: '1.3.1',
+188 verbose parsed url   href: '1.3.1' }
+189 verbose addNamed [ 'multer', '1.3.1' ]
+190 verbose addNamed [ '1.3.1', '1.3.1' ]
+191 silly lockFile dee64a40-multer-1-3-1 multer@1.3.1
+192 verbose lock multer@1.3.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\dee64a40-multer-1-3-1.lock
+193 verbose cache add [ 'mustache@^4.1.0', null ]
+194 verbose cache add name=undefined spec="mustache@^4.1.0" args=["mustache@^4.1.0",null]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'mustache@^4.1.0',
+195 verbose parsed url   path: 'mustache@^4.1.0',
+195 verbose parsed url   href: 'mustache@^4.1.0' }
+196 verbose cache add name="mustache" spec="^4.1.0" args=["mustache","^4.1.0"]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '^4.1.0',
+197 verbose parsed url   path: '^4.1.0',
+197 verbose parsed url   href: '^4.1.0' }
+198 verbose addNamed [ 'mustache', '^4.1.0' ]
+199 verbose addNamed [ null, '>=4.1.0-0 <5.0.0-0' ]
+200 silly lockFile 38e2efca-mustache-4-1-0 mustache@^4.1.0
+201 verbose lock mustache@^4.1.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\38e2efca-mustache-4-1-0.lock
+202 verbose cache add [ 'mysql@2.15.0', null ]
+203 verbose cache add name=undefined spec="mysql@2.15.0" args=["mysql@2.15.0",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'mysql@2.15.0',
+204 verbose parsed url   path: 'mysql@2.15.0',
+204 verbose parsed url   href: 'mysql@2.15.0' }
+205 verbose cache add name="mysql" spec="2.15.0" args=["mysql","2.15.0"]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: '2.15.0',
+206 verbose parsed url   path: '2.15.0',
+206 verbose parsed url   href: '2.15.0' }
+207 verbose addNamed [ 'mysql', '2.15.0' ]
+208 verbose addNamed [ '2.15.0', '2.15.0' ]
+209 silly lockFile 99d9eb8e-mysql-2-15-0 mysql@2.15.0
+210 verbose lock mysql@2.15.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\99d9eb8e-mysql-2-15-0.lock
+211 verbose cache add [ 'node-cron@^2.0.3', null ]
+212 verbose cache add name=undefined spec="node-cron@^2.0.3" args=["node-cron@^2.0.3",null]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: 'node-cron@^2.0.3',
+213 verbose parsed url   path: 'node-cron@^2.0.3',
+213 verbose parsed url   href: 'node-cron@^2.0.3' }
+214 verbose cache add name="node-cron" spec="^2.0.3" args=["node-cron","^2.0.3"]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: '^2.0.3',
+215 verbose parsed url   path: '^2.0.3',
+215 verbose parsed url   href: '^2.0.3' }
+216 verbose addNamed [ 'node-cron', '^2.0.3' ]
+217 verbose addNamed [ null, '>=2.0.3-0 <3.0.0-0' ]
+218 silly lockFile a678bc2d-node-cron-2-0-3 node-cron@^2.0.3
+219 verbose lock node-cron@^2.0.3 C:\Users\vinod.climes\AppData\Roaming\npm-cache\a678bc2d-node-cron-2-0-3.lock
+220 verbose cache add [ 'nodemailer@^6.1.1', null ]
+221 verbose cache add name=undefined spec="nodemailer@^6.1.1" args=["nodemailer@^6.1.1",null]
+222 verbose parsed url { protocol: null,
+222 verbose parsed url   slashes: null,
+222 verbose parsed url   auth: null,
+222 verbose parsed url   host: null,
+222 verbose parsed url   port: null,
+222 verbose parsed url   hostname: null,
+222 verbose parsed url   hash: null,
+222 verbose parsed url   search: null,
+222 verbose parsed url   query: null,
+222 verbose parsed url   pathname: 'nodemailer@^6.1.1',
+222 verbose parsed url   path: 'nodemailer@^6.1.1',
+222 verbose parsed url   href: 'nodemailer@^6.1.1' }
+223 verbose cache add name="nodemailer" spec="^6.1.1" args=["nodemailer","^6.1.1"]
+224 verbose parsed url { protocol: null,
+224 verbose parsed url   slashes: null,
+224 verbose parsed url   auth: null,
+224 verbose parsed url   host: null,
+224 verbose parsed url   port: null,
+224 verbose parsed url   hostname: null,
+224 verbose parsed url   hash: null,
+224 verbose parsed url   search: null,
+224 verbose parsed url   query: null,
+224 verbose parsed url   pathname: '^6.1.1',
+224 verbose parsed url   path: '^6.1.1',
+224 verbose parsed url   href: '^6.1.1' }
+225 verbose addNamed [ 'nodemailer', '^6.1.1' ]
+226 verbose addNamed [ null, '>=6.1.1-0 <7.0.0-0' ]
+227 silly lockFile 2153a71b-nodemailer-6-1-1 nodemailer@^6.1.1
+228 verbose lock nodemailer@^6.1.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\2153a71b-nodemailer-6-1-1.lock
+229 verbose cache add [ 's3@4.4.0', null ]
+230 verbose cache add name=undefined spec="s3@4.4.0" args=["s3@4.4.0",null]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 's3@4.4.0',
+231 verbose parsed url   path: 's3@4.4.0',
+231 verbose parsed url   href: 's3@4.4.0' }
+232 verbose cache add name="s3" spec="4.4.0" args=["s3","4.4.0"]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: '4.4.0',
+233 verbose parsed url   path: '4.4.0',
+233 verbose parsed url   href: '4.4.0' }
+234 verbose addNamed [ 's3', '4.4.0' ]
+235 verbose addNamed [ '4.4.0', '4.4.0' ]
+236 silly lockFile d126fa2e-s3-4-4-0 s3@4.4.0
+237 verbose lock s3@4.4.0 C:\Users\vinod.climes\AppData\Roaming\npm-cache\d126fa2e-s3-4-4-0.lock
+238 verbose cache add [ 'sendgrid@5.2.3', null ]
+239 verbose cache add name=undefined spec="sendgrid@5.2.3" args=["sendgrid@5.2.3",null]
+240 verbose parsed url { protocol: null,
+240 verbose parsed url   slashes: null,
+240 verbose parsed url   auth: null,
+240 verbose parsed url   host: null,
+240 verbose parsed url   port: null,
+240 verbose parsed url   hostname: null,
+240 verbose parsed url   hash: null,
+240 verbose parsed url   search: null,
+240 verbose parsed url   query: null,
+240 verbose parsed url   pathname: 'sendgrid@5.2.3',
+240 verbose parsed url   path: 'sendgrid@5.2.3',
+240 verbose parsed url   href: 'sendgrid@5.2.3' }
+241 verbose cache add name="sendgrid" spec="5.2.3" args=["sendgrid","5.2.3"]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: '5.2.3',
+242 verbose parsed url   path: '5.2.3',
+242 verbose parsed url   href: '5.2.3' }
+243 verbose addNamed [ 'sendgrid', '5.2.3' ]
+244 verbose addNamed [ '5.2.3', '5.2.3' ]
+245 silly lockFile 01f787aa-sendgrid-5-2-3 sendgrid@5.2.3
+246 verbose lock sendgrid@5.2.3 C:\Users\vinod.climes\AppData\Roaming\npm-cache\01f787aa-sendgrid-5-2-3.lock
+247 verbose cache add [ 'sendgrid-mailer@^1.2.2', null ]
+248 verbose cache add name=undefined spec="sendgrid-mailer@^1.2.2" args=["sendgrid-mailer@^1.2.2",null]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: 'sendgrid-mailer@^1.2.2',
+249 verbose parsed url   path: 'sendgrid-mailer@^1.2.2',
+249 verbose parsed url   href: 'sendgrid-mailer@^1.2.2' }
+250 verbose cache add name="sendgrid-mailer" spec="^1.2.2" args=["sendgrid-mailer","^1.2.2"]
+251 verbose parsed url { protocol: null,
+251 verbose parsed url   slashes: null,
+251 verbose parsed url   auth: null,
+251 verbose parsed url   host: null,
+251 verbose parsed url   port: null,
+251 verbose parsed url   hostname: null,
+251 verbose parsed url   hash: null,
+251 verbose parsed url   search: null,
+251 verbose parsed url   query: null,
+251 verbose parsed url   pathname: '^1.2.2',
+251 verbose parsed url   path: '^1.2.2',
+251 verbose parsed url   href: '^1.2.2' }
+252 verbose addNamed [ 'sendgrid-mailer', '^1.2.2' ]
+253 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+254 silly lockFile e317cc07-sendgrid-mailer-1-2-2 sendgrid-mailer@^1.2.2
+255 verbose lock sendgrid-mailer@^1.2.2 C:\Users\vinod.climes\AppData\Roaming\npm-cache\e317cc07-sendgrid-mailer-1-2-2.lock
+256 verbose cache add [ 'serve-index@^1.9.1', null ]
+257 verbose cache add name=undefined spec="serve-index@^1.9.1" args=["serve-index@^1.9.1",null]
+258 verbose parsed url { protocol: null,
+258 verbose parsed url   slashes: null,
+258 verbose parsed url   auth: null,
+258 verbose parsed url   host: null,
+258 verbose parsed url   port: null,
+258 verbose parsed url   hostname: null,
+258 verbose parsed url   hash: null,
+258 verbose parsed url   search: null,
+258 verbose parsed url   query: null,
+258 verbose parsed url   pathname: 'serve-index@^1.9.1',
+258 verbose parsed url   path: 'serve-index@^1.9.1',
+258 verbose parsed url   href: 'serve-index@^1.9.1' }
+259 verbose cache add name="serve-index" spec="^1.9.1" args=["serve-index","^1.9.1"]
+260 verbose parsed url { protocol: null,
+260 verbose parsed url   slashes: null,
+260 verbose parsed url   auth: null,
+260 verbose parsed url   host: null,
+260 verbose parsed url   port: null,
+260 verbose parsed url   hostname: null,
+260 verbose parsed url   hash: null,
+260 verbose parsed url   search: null,
+260 verbose parsed url   query: null,
+260 verbose parsed url   pathname: '^1.9.1',
+260 verbose parsed url   path: '^1.9.1',
+260 verbose parsed url   href: '^1.9.1' }
+261 verbose addNamed [ 'serve-index', '^1.9.1' ]
+262 verbose addNamed [ null, '>=1.9.1-0 <2.0.0-0' ]
+263 silly lockFile 32d48ab6-serve-index-1-9-1 serve-index@^1.9.1
+264 verbose lock serve-index@^1.9.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\32d48ab6-serve-index-1-9-1.lock
+265 verbose cache add [ 'underscore@^1.9.1', null ]
+266 verbose cache add name=undefined spec="underscore@^1.9.1" args=["underscore@^1.9.1",null]
+267 verbose parsed url { protocol: null,
+267 verbose parsed url   slashes: null,
+267 verbose parsed url   auth: null,
+267 verbose parsed url   host: null,
+267 verbose parsed url   port: null,
+267 verbose parsed url   hostname: null,
+267 verbose parsed url   hash: null,
+267 verbose parsed url   search: null,
+267 verbose parsed url   query: null,
+267 verbose parsed url   pathname: 'underscore@^1.9.1',
+267 verbose parsed url   path: 'underscore@^1.9.1',
+267 verbose parsed url   href: 'underscore@^1.9.1' }
+268 verbose cache add name="underscore" spec="^1.9.1" args=["underscore","^1.9.1"]
+269 verbose parsed url { protocol: null,
+269 verbose parsed url   slashes: null,
+269 verbose parsed url   auth: null,
+269 verbose parsed url   host: null,
+269 verbose parsed url   port: null,
+269 verbose parsed url   hostname: null,
+269 verbose parsed url   hash: null,
+269 verbose parsed url   search: null,
+269 verbose parsed url   query: null,
+269 verbose parsed url   pathname: '^1.9.1',
+269 verbose parsed url   path: '^1.9.1',
+269 verbose parsed url   href: '^1.9.1' }
+270 verbose addNamed [ 'underscore', '^1.9.1' ]
+271 verbose addNamed [ null, '>=1.9.1-0 <2.0.0-0' ]
+272 silly lockFile fb149358-underscore-1-9-1 underscore@^1.9.1
+273 verbose lock underscore@^1.9.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\fb149358-underscore-1-9-1.lock
+274 verbose cache add [ 'express-debug@1.1.1', null ]
+275 verbose cache add name=undefined spec="express-debug@1.1.1" args=["express-debug@1.1.1",null]
+276 verbose parsed url { protocol: null,
+276 verbose parsed url   slashes: null,
+276 verbose parsed url   auth: null,
+276 verbose parsed url   host: null,
+276 verbose parsed url   port: null,
+276 verbose parsed url   hostname: null,
+276 verbose parsed url   hash: null,
+276 verbose parsed url   search: null,
+276 verbose parsed url   query: null,
+276 verbose parsed url   pathname: 'express-debug@1.1.1',
+276 verbose parsed url   path: 'express-debug@1.1.1',
+276 verbose parsed url   href: 'express-debug@1.1.1' }
+277 verbose cache add name="express-debug" spec="1.1.1" args=["express-debug","1.1.1"]
+278 verbose parsed url { protocol: null,
+278 verbose parsed url   slashes: null,
+278 verbose parsed url   auth: null,
+278 verbose parsed url   host: null,
+278 verbose parsed url   port: null,
+278 verbose parsed url   hostname: null,
+278 verbose parsed url   hash: null,
+278 verbose parsed url   search: null,
+278 verbose parsed url   query: null,
+278 verbose parsed url   pathname: '1.1.1',
+278 verbose parsed url   path: '1.1.1',
+278 verbose parsed url   href: '1.1.1' }
+279 verbose addNamed [ 'express-debug', '1.1.1' ]
+280 verbose addNamed [ '1.1.1', '1.1.1' ]
+281 silly lockFile 61420190-express-debug-1-1-1 express-debug@1.1.1
+282 verbose lock express-debug@1.1.1 C:\Users\vinod.climes\AppData\Roaming\npm-cache\61420190-express-debug-1-1-1.lock
+283 silly addNameRange { name: 'cors', range: '>=2.8.5-0 <3.0.0-0', hasData: false }
+284 verbose url raw body-parser/1.18.3
+285 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser/1.18.3' ]
+286 verbose url resolved https://registry.npmjs.org/body-parser/1.18.3
+287 info trying registry request attempt 1 at 14:52:51
+288 http GET https://registry.npmjs.org/body-parser/1.18.3
+289 silly addNameRange { name: 'crypto-js',
+289 silly addNameRange   range: '>=3.1.9-1 <4.0.0-0',
+289 silly addNameRange   hasData: false }
+290 silly addNameRange { name: 'express', range: '>=4.16.4-0 <5.0.0-0', hasData: false }
+291 silly addNameRange { name: 'gulp', range: '>=4.0.0-0 <5.0.0-0', hasData: false }
+292 silly addNameRange { name: 'gulp-nodemon',
+292 silly addNameRange   range: '>=2.4.2-0 <3.0.0-0',
+292 silly addNameRange   hasData: false }
+293 silly addNameRange { name: 'morgan', range: '>=1.10.0-0 <2.0.0-0', hasData: false }
+294 verbose url raw dotenv/6.0.0
+295 verbose url resolving [ 'https://registry.npmjs.org/', './dotenv/6.0.0' ]
+296 verbose url resolved https://registry.npmjs.org/dotenv/6.0.0
+297 info trying registry request attempt 1 at 14:52:51
+298 http GET https://registry.npmjs.org/dotenv/6.0.0
+299 silly addNameRange { name: 'mustache', range: '>=4.1.0-0 <5.0.0-0', hasData: false }
+300 verbose url raw express-session/1.15.6
+301 verbose url resolving [ 'https://registry.npmjs.org/', './express-session/1.15.6' ]
+302 verbose url resolved https://registry.npmjs.org/express-session/1.15.6
+303 info trying registry request attempt 1 at 14:52:51
+304 http GET https://registry.npmjs.org/express-session/1.15.6
+305 silly addNameRange { name: 'nodemailer',
+305 silly addNameRange   range: '>=6.1.1-0 <7.0.0-0',
+305 silly addNameRange   hasData: false }
+306 silly addNameRange { name: 'node-cron',
+306 silly addNameRange   range: '>=2.0.3-0 <3.0.0-0',
+306 silly addNameRange   hasData: false }
+307 silly addNameRange { name: 'sendgrid-mailer',
+307 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+307 silly addNameRange   hasData: false }
+308 silly addNameRange { name: 'serve-index',
+308 silly addNameRange   range: '>=1.9.1-0 <2.0.0-0',
+308 silly addNameRange   hasData: false }
+309 silly addNameRange { name: 'underscore',
+309 silly addNameRange   range: '>=1.9.1-0 <2.0.0-0',
+309 silly addNameRange   hasData: false }
+310 verbose url raw fcm-node/1.2.1
+311 verbose url resolving [ 'https://registry.npmjs.org/', './fcm-node/1.2.1' ]
+312 verbose url resolved https://registry.npmjs.org/fcm-node/1.2.1
+313 info trying registry request attempt 1 at 14:52:51
+314 http GET https://registry.npmjs.org/fcm-node/1.2.1
+315 verbose url raw gulp
+316 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+317 verbose url resolved https://registry.npmjs.org/gulp
+318 info trying registry request attempt 1 at 14:52:51
+319 http GET https://registry.npmjs.org/gulp
+320 verbose url raw gulp-nodemon
+321 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-nodemon' ]
+322 verbose url resolved https://registry.npmjs.org/gulp-nodemon
+323 info trying registry request attempt 1 at 14:52:51
+324 http GET https://registry.npmjs.org/gulp-nodemon
+325 verbose url raw jsonwebtoken/8.3.0
+326 verbose url resolving [ 'https://registry.npmjs.org/', './jsonwebtoken/8.3.0' ]
+327 verbose url resolved https://registry.npmjs.org/jsonwebtoken/8.3.0
+328 info trying registry request attempt 1 at 14:52:51
+329 http GET https://registry.npmjs.org/jsonwebtoken/8.3.0
+330 verbose url raw sendgrid/mail/6.2.1
+331 verbose url resolving [ 'https://registry.npmjs.org/', './sendgrid/mail/6.2.1' ]
+332 verbose url resolved https://registry.npmjs.org/sendgrid/mail/6.2.1
+333 info trying registry request attempt 1 at 14:52:51
+334 http GET https://registry.npmjs.org/sendgrid/mail/6.2.1
+335 verbose url raw msg91-sms/1.0.1
+336 verbose url resolving [ 'https://registry.npmjs.org/', './msg91-sms/1.0.1' ]
+337 verbose url resolved https://registry.npmjs.org/msg91-sms/1.0.1
+338 info trying registry request attempt 1 at 14:52:51
+339 http GET https://registry.npmjs.org/msg91-sms/1.0.1
+340 verbose url raw multer/1.3.1
+341 verbose url resolving [ 'https://registry.npmjs.org/', './multer/1.3.1' ]
+342 verbose url resolved https://registry.npmjs.org/multer/1.3.1
+343 info trying registry request attempt 1 at 14:52:51
+344 http GET https://registry.npmjs.org/multer/1.3.1
+345 verbose url raw mustache
+346 verbose url resolving [ 'https://registry.npmjs.org/', './mustache' ]
+347 verbose url resolved https://registry.npmjs.org/mustache
+348 info trying registry request attempt 1 at 14:52:51
+349 http GET https://registry.npmjs.org/mustache
+350 verbose url raw mysql/2.15.0
+351 verbose url resolving [ 'https://registry.npmjs.org/', './mysql/2.15.0' ]
+352 verbose url resolved https://registry.npmjs.org/mysql/2.15.0
+353 info trying registry request attempt 1 at 14:52:51
+354 http GET https://registry.npmjs.org/mysql/2.15.0
+355 verbose url raw nodemailer
+356 verbose url resolving [ 'https://registry.npmjs.org/', './nodemailer' ]
+357 verbose url resolved https://registry.npmjs.org/nodemailer
+358 info trying registry request attempt 1 at 14:52:51
+359 http GET https://registry.npmjs.org/nodemailer
+360 verbose url raw node-cron
+361 verbose url resolving [ 'https://registry.npmjs.org/', './node-cron' ]
+362 verbose url resolved https://registry.npmjs.org/node-cron
+363 info trying registry request attempt 1 at 14:52:51
+364 http GET https://registry.npmjs.org/node-cron
+365 verbose url raw s3/4.4.0
+366 verbose url resolving [ 'https://registry.npmjs.org/', './s3/4.4.0' ]
+367 verbose url resolved https://registry.npmjs.org/s3/4.4.0
+368 info trying registry request attempt 1 at 14:52:51
+369 http GET https://registry.npmjs.org/s3/4.4.0
+370 verbose url raw express-debug/1.1.1
+371 verbose url resolving [ 'https://registry.npmjs.org/', './express-debug/1.1.1' ]
+372 verbose url resolved https://registry.npmjs.org/express-debug/1.1.1
+373 info trying registry request attempt 1 at 14:52:51
+374 http GET https://registry.npmjs.org/express-debug/1.1.1
+375 verbose url raw connect-multiparty
+376 verbose url resolving [ 'https://registry.npmjs.org/', './connect-multiparty' ]
+377 verbose url resolved https://registry.npmjs.org/connect-multiparty
+378 info trying registry request attempt 1 at 14:52:51
+379 verbose etag "a1f71eb3d33e5e6fd19f11b39f98e8a7"
+380 http GET https://registry.npmjs.org/connect-multiparty
+381 verbose url raw axios
+382 verbose url resolving [ 'https://registry.npmjs.org/', './axios' ]
+383 verbose url resolved https://registry.npmjs.org/axios
+384 info trying registry request attempt 1 at 14:52:51
+385 verbose etag "eb181edcdd104f8f6b705b0f9d06a31e"
+386 http GET https://registry.npmjs.org/axios
+387 verbose url raw aws-sdk
+388 verbose url resolving [ 'https://registry.npmjs.org/', './aws-sdk' ]
+389 verbose url resolved https://registry.npmjs.org/aws-sdk
+390 info trying registry request attempt 1 at 14:52:51
+391 verbose etag "03c88e1bbefd801189abeadf26e7a0cc"
+392 http GET https://registry.npmjs.org/aws-sdk
+393 verbose url raw cors
+394 verbose url resolving [ 'https://registry.npmjs.org/', './cors' ]
+395 verbose url resolved https://registry.npmjs.org/cors
+396 info trying registry request attempt 1 at 14:52:51
+397 verbose etag "c1968a7f84bc325d63a7f5bdd9fef341"
+398 http GET https://registry.npmjs.org/cors
+399 verbose url raw connect-timeout/1.9.0
+400 verbose url resolving [ 'https://registry.npmjs.org/', './connect-timeout/1.9.0' ]
+401 verbose url resolved https://registry.npmjs.org/connect-timeout/1.9.0
+402 info trying registry request attempt 1 at 14:52:51
+403 http GET https://registry.npmjs.org/connect-timeout/1.9.0
+404 verbose url raw crypto-js
+405 verbose url resolving [ 'https://registry.npmjs.org/', './crypto-js' ]
+406 verbose url resolved https://registry.npmjs.org/crypto-js
+407 info trying registry request attempt 1 at 14:52:51
+408 verbose etag "cedbacfe64cb326b7b1534599566cb39"
+409 http GET https://registry.npmjs.org/crypto-js
+410 verbose url raw sendgrid-mailer
+411 verbose url resolving [ 'https://registry.npmjs.org/', './sendgrid-mailer' ]
+412 verbose url resolved https://registry.npmjs.org/sendgrid-mailer
+413 info trying registry request attempt 1 at 14:52:51
+414 verbose etag "7356fb097457a29680b7f84d646d3cde"
+415 http GET https://registry.npmjs.org/sendgrid-mailer
+416 verbose url raw underscore
+417 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+418 verbose url resolved https://registry.npmjs.org/underscore
+419 info trying registry request attempt 1 at 14:52:51
+420 verbose etag "321fdb97940fff9f5fa02e4589ccdf19"
+421 http GET https://registry.npmjs.org/underscore
+422 verbose url raw express
+423 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+424 verbose url resolved https://registry.npmjs.org/express
+425 info trying registry request attempt 1 at 14:52:51
+426 verbose etag "8199467f8b4f75c46ba863b9c40e6dbe"
+427 http GET https://registry.npmjs.org/express
+428 verbose url raw morgan
+429 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+430 verbose url resolved https://registry.npmjs.org/morgan
+431 info trying registry request attempt 1 at 14:52:51
+432 verbose etag "a39d1629e2f834fd03a2fdafe926c293"
+433 http GET https://registry.npmjs.org/morgan
+434 verbose url raw serve-index
+435 verbose url resolving [ 'https://registry.npmjs.org/', './serve-index' ]
+436 verbose url resolved https://registry.npmjs.org/serve-index
+437 info trying registry request attempt 1 at 14:52:51
+438 verbose etag "c2c97996a3248c29ca21451d1a3212ec"
+439 http GET https://registry.npmjs.org/serve-index
+440 verbose url raw sendgrid/5.2.3
+441 verbose url resolving [ 'https://registry.npmjs.org/', './sendgrid/5.2.3' ]
+442 verbose url resolved https://registry.npmjs.org/sendgrid/5.2.3
+443 info trying registry request attempt 1 at 14:52:51
+444 http GET https://registry.npmjs.org/sendgrid/5.2.3
+445 http 200 https://registry.npmjs.org/fcm-node/1.2.1
+446 silly registry.get cb [ 200,
+446 silly registry.get   { date: 'Mon, 16 Oct 2023 09:23:59 GMT',
+446 silly registry.get     'content-type': 'application/json',
+446 silly registry.get     'content-length': '1766',
+446 silly registry.get     connection: 'keep-alive',
+446 silly registry.get     'cf-ray': '816f3f098a1ef54f-BOM',
+446 silly registry.get     'cf-cache-status': 'DYNAMIC',
+446 silly registry.get     'access-control-allow-origin': '*',
+446 silly registry.get     'cache-control': 'max-age=300',
+446 silly registry.get     vary: 'accept-encoding, accept',
+446 silly registry.get     server: 'cloudflare' } ]
+447 silly lockFile bc8eb99b--org-fcm-node-fcm-node-1-2-1-tgz https://registry.npmjs.org/fcm-node/-/fcm-node-1.2.1.tgz
+448 verbose lock https://registry.npmjs.org/fcm-node/-/fcm-node-1.2.1.tgz C:\Users\vinod.climes\AppData\Roaming\npm-cache\bc8eb99b--org-fcm-node-fcm-node-1-2-1-tgz.lock
+449 verbose addRemoteTarball [ 'https://registry.npmjs.org/fcm-node/-/fcm-node-1.2.1.tgz',
+449 verbose addRemoteTarball   '55af2423989b982a65f4266b38357c7f8d15ef94' ]
+450 info retry fetch attempt 1 at 14:52:52
+451 verbose fetch to= C:\Users\VINOD~1.CLI\AppData\Local\Temp\npm-15264-CoNpdg9A\1697448172787-0.649512329371646\tmp.tgz
+452 http GET https://registry.npmjs.org/fcm-node/-/fcm-node-1.2.1.tgz
+453 http 200 https://registry.npmjs.org/cloudinary/1.11.0
+454 silly registry.get cb [ 200,
+454 silly registry.get   { date: 'Mon, 16 Oct 2023 09:23:59 GMT',
+454 silly registry.get     'content-type': 'application/json',
+454 silly registry.get     'content-length': '1847',
+454 silly registry.get     connection: 'keep-alive',
+454 silly registry.get     'cf-ray': '816f3f098eb8857e-BOM',
+454 silly registry.get     'cf-cache-status': 'DYNAMIC',
+454 silly registry.get     'access-control-allow-origin': '*',
+454 silly registry.get     'cache-control': 'max-age=300',
+454 silly registry.get     vary: 'accept-encoding, accept',
+454 silly registry.get     server: 'cloudflare' } ]
+455 http 200 https://registry.npmjs.org/express-session/1.15.6
+456 silly registry.get cb [ 200,
+456 silly registry.get   { date: 'Mon, 16 Oct 2023 09:23:59 GMT',
+456 silly registry.get     'content-type': 'application/json',
+456 silly registry.get     'content-length': '2338',
+456 silly registry.get     connection: 'keep-alive',
+456 silly registry.get     'cf-ray': '816f3f098c0f85e5-BOM',
+456 silly registry.get     'cf-cache-status': 'DYNAMIC',
+456 silly registry.get     'access-control-allow-origin': '*',
+456 silly registry.get     'cache-control': 'max-age=300',
+456 silly registry.get     vary: 'accept-encoding, accept',
+456 silly registry.get     server: 'cloudflare' } ]
+457 silly lockFile 6d0d4ca8-ssion-express-session-1-15-6-tgz https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+458 verbose lock https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz C:\Users\vinod.climes\AppData\Roaming\npm-cache\6d0d4ca8-ssion-express-session-1-15-6-tgz.lock
+459 silly lockFile 6cfc72b0-cloudinary-cloudinary-1-11-0-tgz https://registry.npmjs.org/cloudinary/-/cloudinary-1.11.0.tgz
+460 verbose lock https://registry.npmjs.org/cloudinary/-/cloudinary-1.11.0.tgz C:\Users\vinod.climes\AppData\Roaming\npm-cache\6cfc72b0-cloudinary-cloudinary-1-11-0-tgz.lock
+461 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz',
+461 verbose addRemoteTarball   '47b4160c88f42ab70fe8a508e31cbff76757ab0a' ]
+462 verbose addRemoteTarball [ 'https://registry.npmjs.org/cloudinary/-/cloudinary-1.11.0.tgz',
+462 verbose addRemoteTarball   '3f6b21961d17859f271738f452427d9899591ff1' ]
+463 info retry fetch attempt 1 at 14:52:52
+464 verbose fetch to= C:\Users\VINOD~1.CLI\AppData\Local\Temp\npm-15264-CoNpdg9A\1697448172812-0.9640458030626178\tmp.tgz
+465 info retry fetch attempt 1 at 14:52:52
+466 verbose fetch to= C:\Users\VINOD~1.CLI\AppData\Local\Temp\npm-15264-CoNpdg9A\1697448172813-0.26742758112959564\tmp.tgz
+467 http GET https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz
+468 http GET https://registry.npmjs.org/cloudinary/-/cloudinary-1.11.0.tgz
+469 http 200 https://registry.npmjs.org/dotenv/6.0.0
+470 silly registry.get cb [ 200,
+470 silly registry.get   { date: 'Mon, 16 Oct 2023 09:24:00 GMT',
+470 silly registry.get     'content-type': 'application/json',
+470 silly registry.get     'content-length': '2649',
+470 silly registry.get     connection: 'keep-alive',
+470 silly registry.get     'cf-ray': '816f3f0a98edf4c0-BOM',
+470 silly registry.get     'cf-cache-status': 'DYNAMIC',
+470 silly registry.get     'access-control-allow-origin': '*',
+470 silly registry.get     'cache-control': 'max-age=300',
+470 silly registry.get     vary: 'accept-encoding, accept',
+470 silly registry.get     server: 'cloudflare' } ]
+471 silly lockFile 5f1b255d-pmjs-org-dotenv-dotenv-6-0-0-tgz https://registry.npmjs.org/dotenv/-/dotenv-6.0.0.tgz
+472 verbose lock https://registry.npmjs.org/dotenv/-/dotenv-6.0.0.tgz C:\Users\vinod.climes\AppData\Roaming\npm-cache\5f1b255d-pmjs-org-dotenv-dotenv-6-0-0-tgz.lock
+473 verbose addRemoteTarball [ 'https://registry.npmjs.org/dotenv/-/dotenv-6.0.0.tgz',
+473 verbose addRemoteTarball   '24e37c041741c5f4b25324958ebbc34bca965935' ]
+474 info retry fetch attempt 1 at 14:52:52
+475 verbose fetch to= C:\Users\VINOD~1.CLI\AppData\Local\Temp\npm-15264-CoNpdg9A\1697448172948-0.5703720259480178\tmp.tgz
+476 http GET https://registry.npmjs.org/dotenv/-/dotenv-6.0.0.tgz
+477 http 404 https://registry.npmjs.org/sendgrid/mail/6.2.1
+478 silly registry.get cb [ 404,
+478 silly registry.get   { date: 'Mon, 16 Oct 2023 09:24:00 GMT',
+478 silly registry.get     'content-type': 'application/json',
+478 silly registry.get     'content-length': '11',
+478 silly registry.get     connection: 'keep-alive',
+478 silly registry.get     'cf-ray': '816f3f0cbd7cf4c0-BOM',
+478 silly registry.get     'access-control-allow-origin': '*',
+478 silly registry.get     server: 'cloudflare' } ]
+479 silly lockFile e2a63c16-sendgrid-mail-6-2-1 sendgrid/mail@6.2.1
+480 silly lockFile e2a63c16-sendgrid-mail-6-2-1 sendgrid/mail@6.2.1
+481 error Error: No dist in undefined package
+481 error     at next (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:749:26)
+481 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:742:5
+481 error     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:142:7)
+481 error     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:133:7
+481 error     at Object.oncomplete (fs.js:107:15)
+482 error If you need help, you may report this *entire* log,
+482 error including the npm and node versions, at:
+482 error     <http://github.com/isaacs/npm/issues>
+483 error System Windows_NT 6.2.9200
+484 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+485 error cwd D:\API_grim
+486 error node -v v0.10.24
+487 error npm -v 1.3.21
+488 verbose exit [ 1, true ]
