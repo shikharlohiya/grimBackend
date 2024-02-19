@@ -7,7 +7,6 @@ var rfc = require('node-rfc');
 
 
 require('dotenv/config')
-
 var abapSystem = {
     user: process.env.user,
     passwd: process.env.passwd,

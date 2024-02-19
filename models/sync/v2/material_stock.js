@@ -18,8 +18,8 @@ cron.schedule('00 05 *   *   *', () => {
         console.log('----------------------------');
 
     // Make a request for a user with a given ID
-    axios.get(`${process.env.host}/api/v2/sync/material_stock` )
-//    axios.get(`http://10.0.0.206:3001/api/v2/sync/material_stock`)
+    // axios.get(`${process.env.host}/api/v2/sync/material_stock` )
+   axios.get(`http://10.0.0.206:3001/api/v2/sync/material_stock`)
         .then(function (response) {
             console.log(response.data, '-----------------------');
             // res.status(200).json({

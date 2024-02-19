@@ -1,16 +1,16 @@
 const con = require("../../db1.js");
 const g_var = require("../../global_var.js");
 
-const user_role = function () {};
+const order_status = function () {};
 
-user_role.prototype.userRoleFunc = function (req, res, callback) {
-    const status = req.query.status; // Get the 'type' parameter from the query string
-      console.log('-----------------------' , status);
-    const query = `SELECT * FROM user_roles`;
+order_status.prototype.orderStatusFunc = function (req, res, callback) {
+    const created_by = req.query.created_by; // Get the 'type' parameter from the query string
+      console.log(created_by, '-----------------------');
+    const query = `SELECT * FROM order_status`;
 
-    if (status) {
+    if (created_by) {
         // If 'type' parameter is provided, add a WHERE clause to the query
-        const filteredQuery = `${query} WHERE status = '${status}'`;
+        const filteredQuery = `${query} WHERE created_by = '${created_by}'`;
         executeQuery(res, filteredQuery);
     } else {
         // If 'type' parameter is not provided, fetch all data
@@ -31,7 +31,7 @@ function executeQuery(res, query) {
         } else if (result.length > 0) {
             res.status(200).json({
                 "success": true,
-                "User_role": result
+                "Order Status": result
             });
         } else {
             res.status(200).json({
@@ -41,9 +41,5 @@ function executeQuery(res, query) {
         }
     });
 }
-module.exports = new user_role();
 
-
-
- 
-
+module.exports = new order_status();
