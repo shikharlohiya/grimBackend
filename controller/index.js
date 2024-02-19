@@ -50,6 +50,14 @@ router.use('/api/v4/brill', require('./brill/v4'))
 //for 3003 data-----
 router.use('/api', require('./storeUser/v4'));
 
+router.use('/api/v5/manager', require('./manager/v5'))
+router.use('/api/v5/indent', require('./indent/v5'))
+router.use('/api/v5/storeUser', require('./storeUser/v5'))
+router.use('/api/v5', require('./common/v5'))
+router.use('/api/v5/admin', require('./admin/v5'))
+// router.use('/api/v2/sync', require('./sync/v2'))
+router.use('/api/v5/md', require('./md/v5'))
+router.use('/api/v5/hod', require('./hod/v5'))
 
 
 

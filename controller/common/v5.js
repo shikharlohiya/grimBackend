@@ -1,5 +1,5 @@
 var express = require('express'),
-	path = '../../models/common/v4/',
+	path = '../../models/common/v5/',
 	router = express.Router(),
 	login = require(`${path}login.js`),
 	uploadImageToS3 = require(`${path}uploadImageToS3.js`),
